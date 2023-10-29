@@ -157,7 +157,7 @@ describe('CommentRowComponent', () => {
         showCommentTo: [CommentVisibilityType.GIVER, CommentVisibilityType.INSTRUCTORS],
         createdAt: new Date().getTime(),
         lastEditedAt: new Date().getTime(),
-        showGiverNameTo: [],
+        showGiverNameTo: [],d
       },
       commentEditFormModel: {
         commentText: 'Mock comment text for form',
